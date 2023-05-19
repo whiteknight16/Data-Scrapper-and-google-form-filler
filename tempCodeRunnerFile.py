@@ -1,6 +1,0 @@
-driver.get(FORM_LINK)
-    time.sleep(2)
-    add=driver.find_element(By.XPATH,'//*[@id="mG61Hd"]/div[2]/div/div[2]/div[1]/div/div/div[2]/div/div[1]/div/div[1]/input')
-    add.send_keys(address)
-    pr=driver.find_element(By.XPATH,'//*[@id="mG61Hd"]/div[2]/div/div[2]/div[2]/div/div/div[2]/div/div[1]/div/div[1]/input')
-    pr.send_keys(pr)
